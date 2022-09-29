@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-29T13:04:55 IST" name="Suite" finished-at="2022-09-29T13:05:13 IST" duration-ms="18245">
+  <suite started-at="2022-09-29T15:31:19 IST" name="Suite" finished-at="2022-09-29T15:31:31 IST" duration-ms="11992">
     <groups>
     </groups>
-    <test started-at="2022-09-29T13:04:55 IST" name="Test" finished-at="2022-09-29T13:05:13 IST" duration-ms="18245">
+    <test started-at="2022-09-29T15:31:19 IST" name="Test" finished-at="2022-09-29T15:31:31 IST" duration-ms="11992">
       <class name="com.SelniumFour.RelativeLocators">
-        <test-method is-config="true" signature="RelativeLocatorsBeforeTest()[pri:0, instance:com.SelniumFour.RelativeLocators@6f63b475]" started-at="2022-09-29T13:04:55 IST" name="RelativeLocatorsBeforeTest" finished-at="2022-09-29T13:05:04 IST" duration-ms="9100" status="PASS">
+        <test-method is-config="true" signature="RelativeLocatorsBeforeTest()[pri:0, instance:com.SelniumFour.RelativeLocators@6fa51cd4]" started-at="2022-09-29T15:31:19 IST" name="RelativeLocatorsBeforeTest" finished-at="2022-09-29T15:31:22 IST" duration-ms="2872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RelativeLocatorsBeforeTest -->
-        <test-method signature="RelativeLocatorsTest2()[pri:0, instance:com.SelniumFour.RelativeLocators@6f63b475]" started-at="2022-09-29T13:05:10 IST" name="RelativeLocatorsTest2" description="Verify book detail tile is clickable" finished-at="2022-09-29T13:05:10 IST" duration-ms="93" status="PASS">
+        <test-method signature="RelativeLocatorsTest2()[pri:0, instance:com.SelniumFour.RelativeLocators@6fa51cd4]" started-at="2022-09-29T15:31:27 IST" name="RelativeLocatorsTest2" description="Verify book detail tile is clickable" finished-at="2022-09-29T15:31:27 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RelativeLocatorsTest2 -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.SelniumFour.RelativeLocators@6f63b475]" started-at="2022-09-29T13:05:10 IST" name="close" finished-at="2022-09-29T13:05:13 IST" duration-ms="3231" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.SelniumFour.RelativeLocators@6fa51cd4]" started-at="2022-09-29T15:31:27 IST" name="close" finished-at="2022-09-29T15:31:31 IST" duration-ms="3296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.SelniumFour.RelativeLocators -->
       <class name="com.SelniumFour.AutomateWebApp">
-        <test-method signature="Location()[pri:0, instance:com.SelniumFour.AutomateWebApp@484094a5]" started-at="2022-09-29T13:05:04 IST" name="Location" description="Verify window diamensions" finished-at="2022-09-29T13:05:10 IST" duration-ms="5685" status="PASS">
+        <test-method signature="Location()[pri:0, instance:com.SelniumFour.AutomateWebApp@548d708a]" started-at="2022-09-29T15:31:22 IST" name="Location" description="Verify window diamensions" finished-at="2022-09-29T15:31:27 IST" duration-ms="5480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Location -->

@@ -44,13 +44,6 @@
 			<artifactId>allure-testng</artifactId>
 			<version>2.19.0</version>
 		</dependency>
-		<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>5.0.8</version>
-		</dependency>
-
-
 	</dependencies>
 
 	<build>

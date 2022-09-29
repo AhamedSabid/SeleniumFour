@@ -168,10 +168,7 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.Listeners.ExtentReportListener&quot;/&gt;
-  &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.SelniumFour.AutomateWebApp&quot;/&gt;
       &lt;class name=&quot;com.SelniumFour.RelativeLocators&quot;/&gt;
@@ -218,11 +215,11 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Location')
 data.setCell(0, 2, 'com.SelniumFour.AutomateWebApp')
-data.setCell(0, 3, 5685);
+data.setCell(0, 3, 5480);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'RelativeLocatorsTest2')
 data.setCell(1, 2, 'com.SelniumFour.RelativeLocators')
-data.setCell(1, 3, 93);
+data.setCell(1, 3, 183);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -263,18 +260,18 @@ return data;
               <div class="chronological-class-name">com.SelniumFour.AutomateWebApp</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Location</span>
-                <span class="method-start">9154 ms</span>
+                <span class="method-start">2902 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.SelniumFour.RelativeLocators</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">RelativeLocatorsTest2</span>
-                <span class="method-start">14906 ms</span>
+                <span class="method-start">8497 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">15003 ms</span>
+                <span class="method-start">8687 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

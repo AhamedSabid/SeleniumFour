@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.Description;
@@ -30,8 +31,11 @@ public class AutomateWebApp {
 	 */
 	// @Test
 	public void shouldAnswerWithTrue() throws InterruptedException, IOException {
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
+		ChromeOptions co=new ChromeOptions();
+		co.setHeadless(true);
+		
+		WebDriver driver = WebDriverManager.chromedriver().capabilities(co).create();
+		// WebDriver driver = new ChromeDriver();
 
 		// Navigate to the demoqa website
 		driver.get("https://www.google.com");
@@ -91,9 +95,13 @@ public class AutomateWebApp {
 	@Story("Story:User Window diamensions")
 	@Severity(SeverityLevel.NORMAL)
 	public void Location() throws InterruptedException, IOException {
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
-
+		//WebDriverManager.chromedriver().setup();
+		//WebDriver driver = new ChromeDriver();
+		ChromeOptions co=new ChromeOptions();
+		co.setHeadless(true);
+		
+		WebDriver driver = WebDriverManager.chromedriver().capabilities(co).create();
+		
 		// Navigate to the demoqa website
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();

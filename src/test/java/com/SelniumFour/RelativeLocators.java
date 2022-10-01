@@ -2,12 +2,12 @@ package com.SelniumFour;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.locators.RelativeLocator;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -23,8 +23,8 @@ public class RelativeLocators {
 	
 	@BeforeTest
 	public void RelativeLocatorsBeforeTest(){
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		driver = WebDriverManager.edgedriver().create();
+		//driver = new ChromeDriver();
 
 		// Navigate to the demoqa website
 		driver.get("https://automationbookstore.dev/");

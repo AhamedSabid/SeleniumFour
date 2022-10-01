@@ -37,7 +37,6 @@ pipeline
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/AhamedSabid/SeleniumFour.git'
                     bat "mvn clean test -Dsurefire.suiteXmlFiles-testng.xml"
-                    
                 }
             }
         }
